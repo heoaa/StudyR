@@ -64,3 +64,7 @@ total
 # 벡터 산술연산 (간단방법)
 result=deposit*(1+rate/100)^period
 result
+
+
+
+
