@@ -140,5 +140,6 @@ pie3D(ds, main = '연령 분포', labels = names(ds),
 ##
 group <- as.numeric(socsupport$gender)
 color <- c('blue', 'red')
+
 plot(socsupport[,c('emotionalsat', 'tangiblesat', 'age')], 
      pch = group, col = color[group])

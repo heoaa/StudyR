@@ -12,7 +12,7 @@ print(bonus)
 
 # else문 생략한 if문
 a <- 10; b <- 20
-if (a>5) & (b>5){
+if (a>5 & b>5){
   print(a+b) }
 
 a <- 10; b <- 20
@@ -21,6 +21,7 @@ if (a>b) {
 } else {
   c <- b
 }
+print(c)
 
 # for
 for (i in 1:5) {

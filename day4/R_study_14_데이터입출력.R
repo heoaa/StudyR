@@ -64,7 +64,7 @@ air.xlsx
 install.packages("openxlsx")  # 엑셀 쓰기용
 library(openxlsx)
 
-# 변수로 파일 생성성
+# 변수로 파일 생성
 write.xlsx(air.xlsx, 'bmi_result.xlsx', rownames = F)
 
 
